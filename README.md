@@ -23,13 +23,13 @@ arXiv: [2509.21861](https://arxiv.org/abs/2509.21861)
 
 ## 🧠 Model Capabilities
 
-| Spectral Analysis | Molecule Elucidation | 3D Generation |
+| Spectra Generation | Spectra Elucidation | 3D Generation |
 | --- | --- | --- |
 | ![Spectral pipeline](images/exp_spec.png) | ![Elucidation pipeline](images/exp_spec2.png) | ![3D generation examples](images/exp_3d.png) |
 
-- **Spectrum-to-SMILES reasoning**: translates multi-modal spectral evidence into candidate structures with token-level explanations.
-- **Chemically grounded chat**: answers molecule QA tasks, validates hypotheses, and reasons about reactions.
-- **Conformer synthesis**: outputs high-fidelity 3D geometries that respect stereochemical constraints.
+- **Spectrum generation**: generates corresponding spectrum based on input SMILES.
+- **Spectrum-to-SMILES reasoning**: translates multi-modal spectral evidence into candidate structures.
+- **Structure prediction**: outputs high-fidelity 3D structure.
 
 ### Benchmark Snapshot
 
